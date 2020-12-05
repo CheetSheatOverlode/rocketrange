@@ -7,10 +7,16 @@ http.createServer(function (req, res){
     <html>
         <head>
             <title>It is Rocket Science!</title>
+            <style>
+            p {
+                background-color:blue;
+            }
+            </style>
         </head>
         <body>
+            <script>alert("hello")</script>
             <p>Changing output format...</p>
         </body>
     </html>`;
-    res.end(data);
+    res.end(content);
 }).listen(80);
