@@ -6,6 +6,7 @@ http.createServer(function (req, res){
     function savevalue() {
         var content = document.getElementById("coh").value;
         document.getElementById("fuckass").innerHTML = "content";
+        alert(content);
         }
     <html>
         <head>
