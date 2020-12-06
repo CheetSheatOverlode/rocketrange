@@ -5,7 +5,7 @@ http.createServer(function (req, res){
     res.writeHead(200, {"Content-Type": "text/html"});
     function savevalue() {
         var content = document.getElementById("coh");
-        alert(content);
+        document.getElementById("fuckass").innerHTML = "content";
         }
     <html>
         <head>
@@ -17,6 +17,7 @@ http.createServer(function (req, res){
                 <input type="text" id="coh" name="coh" value=2000><br><br>
                 <input type="submit" id="submit" name="submit" value="Calculate!" onclick="savevalue()"><br>
             </form>
+            <p id="fuckass"></p>
         </body>
     </html>;
     res.end(content);
