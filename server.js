@@ -4,7 +4,7 @@ var fs = require("fs");
 http.createServer(function (req, res){
     res.writeHead(200, {"Content-Type": "text/html"});
     function savevalue() {
-        var content = document.getElementById("thevalue")
+        var content = document.getElementById("coh")
         }
     <html>
         <head>
@@ -15,7 +15,7 @@ http.createServer(function (req, res){
         <body>
             <form>
                 <label for="coh">Target Orbital Height (KM):</label><br>
-                <input type="text" id="coh" name="coh" value=2000 id="thevalue"><br><br>
+                <input type="text" id="coh" name="coh" value=2000><br><br>
                 <input type="submit" id="submit" name="submit" value="Calculate!" onclick="savevalue()"><br>
             </form>
         </body>
