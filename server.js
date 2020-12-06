@@ -4,7 +4,7 @@ var fs = require("fs");
 http.createServer(function (req, res){
     res.writeHead(200, {"Content-Type": "text/html"});
     function savevalue() {
-        var content = document.getElementById("coh");
+        var content = document.getElementById("coh").value;
         document.getElementById("fuckass").innerHTML = "content";
         }
     <html>
