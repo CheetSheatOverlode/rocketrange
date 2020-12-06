@@ -4,14 +4,11 @@ var fs = require("fs");
 http.createServer(function (req, res){
     res.writeHead(200, {"Content-Type": "text/html"});
     function savevalue() {
-        var input = document.getElementById("coh");
+        var content = document.getElementById("coh");
         }
-    res.write(input);
     <html>
         <head>
             <title>It is Rocket Science!</title>
-            <style>
-            </style>
         </head>
         <body>
             <form>
@@ -20,6 +17,6 @@ http.createServer(function (req, res){
                 <input type="submit" id="submit" name="submit" value="Calculate!" onclick="savevalue()"><br>
             </form>
         </body>
-    </html>`;
+    </html>;
     res.end(content);
 }).listen(80);
