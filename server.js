@@ -5,6 +5,7 @@ http.createServer(function (req, res){
     res.writeHead(200, {"Content-Type": "text/html"});
     function savevalue() {
         var content = document.getElementById("coh");
+        alert(content);
         }
     <html>
         <head>
