@@ -7,7 +7,7 @@ http.createServer(function (req, res){
         var content = document.getElementById("coh").value;
         document.getElementById("fuckass").innerHTML = "content";
         alert(content);
-        }
+    }
     <html>
         <head>
             <title>It is Rocket Science!</title>
