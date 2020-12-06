@@ -5,7 +5,6 @@ http.createServer(function (req, res){
     res.writeHead(200, {"Content-Type": "text/html"});
     function savevalue() {
         var content = document.getElementById("userinput").value;
-        document.getElementById("fuckass").innerHTML = "content";
         alert(content);
     }
     <html>
