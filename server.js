@@ -4,21 +4,21 @@ var fs = require("fs");
 http.createServer(function (req, res){
     res.writeHead(200, {"Content-Type": "text/html"});
     function savevalue() {
-        var content = document.getElementById("coh").value;
+        var content = document.getElementById("userinput").value;
+        document.getElementById("fuckass").innerHTML = "content";
         alert(content);
     }
-    let page = `
     <html>
         <head>
             <title>It is Rocket Science!</title>
         </head>
         <body>
             <form>
-                <label for="coh">Target Orbital Height (KM):</label><br>
-                <input type="text" id="coh" name="coh" value=2000><br><br>
-                <input type="submit" id="submit" name="submit" value="Calculate!" onclick="savevalue()"><br>
+                <input type="text" placeholder=2000 id="userinput"><br><br>
+                <input type="submit" onclick="savevalue()" id="Calculate!"><br>
             </form>
+            <p id="fuckass">I am the value haha</p>
         </body>
-    </html>`;
-    res.end(page);
+    </html>;
+    res.end(content);
 }).listen(80);
