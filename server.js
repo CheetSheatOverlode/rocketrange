@@ -18,7 +18,7 @@ http.createServer(function (req, res){
                 <input type="text" id="coh" name="coh" value=2000><br><br>
                 <input type="submit" id="submit" name="submit" value="Calculate!" onclick="savevalue()"><br>
             </form>
-            <p id="fuckass"></p>
+            <p id="fuckass">I am the value haha</p>
         </body>
     </html>;
     res.end(content);
