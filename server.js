@@ -8,14 +8,14 @@ http.createServer(function (req, res){
         <head>
             <title>It is Rocket Science!</title>
             <style>
-            p {
-                background-color:blue;
-            }
             </style>
         </head>
         <body>
-            <script>alert("hello")</script>
-            <p>Changing output format...</p>
+            <form>
+                <label for="coh">Target Orbital Height (KM):</label><br>
+                <input type="text" id="coh" name="coh" value=2000><br><br>
+                <input type="submit" id="submit" name="submit" value="Calculate!"><br>
+            </form>
         </body>
     </html>`;
     res.end(content);
