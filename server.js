@@ -165,7 +165,7 @@ http.createServer(function (req, res){
                 to read down this far, thank you, and we wish you success in your future science and technology learning.
                 Thank you.
                 <br><br>
-                - Eric Zou, Daniel Yi, Kevin Luo, and Jessie Zou
+                - Your Development Team (Eric Zou, Daniel Yi, Kevin Luo, and Jessie Zou)
             </body>
         `;
         res.end(content);
