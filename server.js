@@ -143,8 +143,16 @@ http.createServer(function (req, res){
                 more complex requests in rapid succession, gaining valuable data with which I'm not sure what you're going 
                 to do. <br> *Note: This program was meant to help aspiring CubeSat developers brainstorm for project ideas.
                 <br><br>
-
-                Now here's a tidbit on how our program worked. There's a formula for calculating orbit speed based off height, 
+                Now, let's assume you've been looking at the past 2 or 3 paragraphs and you don't know how to code, or can't
+                get Python to work. That's ok! Here's a simple method to still get your calculation results.
+                In a nearby browser tab, simply enter 
+                http://thisisrocketscience.live/api/{Enter Orbit Height}.
+                <br>So, if you want to try entering 2000 like we did in the Python program, simply navigate to
+                http://thisisrocketscience.live/api/2000
+                and hit enter. The values/numbers will still be there, but there won't be labels. Just know that
+                the first value is Orbit Speed, the second one is Orbit Time, and the third one is Escape Velocity.
+                <br><br>
+                Now here's a bit on how our program works. There's a formula for calculating orbit speed based off height, 
                 and that is:
                 <br><br>
                 <h2>sqrt(GM/R)</h2>
