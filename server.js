@@ -147,17 +147,17 @@ http.createServer(function (req, res){
                 Now here's a tidbit on how our program worked. There's a formula for calculating orbit speed based off height, 
                 and that is:
                 <br><br>
-                <h1>sqrt(GM/R)</h1>
+                <h2>sqrt(GM/R)</h2>
                 <br><br>
                 Where GM is a constant 398,600 and R is the total orbit radius, which is your orbit height + the radius
                 of the Earth, and sqrt() is the square root function. The formula for the orbit time is:
                 <br><br>
-                <h1>(2 pi R)/V</h1>
+                <h2>(2 pi R)/V</h2>
                 <br><br>
                 Where R is your total orbit radius, pi is 3.14159... (obviously), and V is your orbit speed (or orbit velocity).
                 <br>Finally, the formula for the escape velocity is:
                 <br><br>
-                <h1>sqrt(2GM/R)</h1>
+                <h2>sqrt(2GM/R)</h2>
                 <br><br>
                 Where sqrt() is your square root function, and all other variables have been defined above. To developers who
                 want to look in depth into how our website works, and the specifics of our website (we use Node.js), check out our source code
